@@ -1,5 +1,7 @@
 # Thesaurus da Arquitetura Tradicional
 
+Vocabulários controlados para uso nos documentários da arquitetura tradicional
+
 ## Estrutura global do vocabulário ##
 
 A estrutura hierárquica do vocabulário segue quanto possível a hierarquia do Getty Art and Architecture Thesaurus (AAT). Contudo, não distinguimos os lugares enquanto objetos classificáveis dos lugares enquanto localização geográfica dos objetos, os quais no Getty, integram o Thesaurus of Geographic Names (TGN).
