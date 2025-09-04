@@ -44,7 +44,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -67,7 +67,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocab.getty.edu/aat/300007999"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -90,7 +90,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -117,7 +117,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -140,7 +140,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -163,7 +163,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -187,7 +187,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -213,7 +213,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -238,7 +238,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -262,7 +262,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -285,7 +285,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -311,7 +311,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -336,7 +336,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -360,7 +360,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264550"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -391,7 +391,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004789"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -415,7 +415,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -438,7 +438,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -462,7 +462,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -498,7 +498,7 @@
         <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
                 <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
             </owl:Restriction>
         </rdfs:subClassOf>
