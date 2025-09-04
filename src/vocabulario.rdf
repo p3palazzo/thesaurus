@@ -1,0 +1,518 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vocabulario.tradicional.arq.br#"
+     xml:base="http://vocabulario.tradicional.arq.br"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:voaf="http://purl.org/vocommons/voaf#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:ontology="http://vocab.getty.edu/ontology#"
+     xmlns:protontop="http://www.ontotext.com/proton/protontop#">
+    <owl:Ontology rdf:about="http://vocabulario.tradicional.arq.br">
+        <owl:versionIRI rdf:resource="http://vocabulario.tradicional.arq.br/1.0.0"/>
+        <owl:imports rdf:resource="http://vocab.getty.edu/ontology"/>
+        <terms:description xml:lang="en">Vocabulary for traditional architecture of Portuguese extraction</terms:description>
+        <terms:description xml:lang="pt">Vocabulário de arquitetura tradicional de influência portuguesa</terms:description>
+        <rdfs:comment xml:lang="en">Vocabulary for traditional architecture of Portuguese extraction</rdfs:comment>
+        <rdfs:comment xml:lang="pt">Vocabulário de arquitetura tradicional de influência portuguesa</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000002 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000002">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T19:15:00Z</terms:created>
+        <terms:description xml:lang="pt">Ficha SICG M301 campo 8 (IPHAN)</terms:description>
+        <terms:title xml:lang="pt">&lt;construções individuais segundo seu estado de preservação&gt;</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000003 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000003">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:10:54Z</terms:created>
+        <terms:title xml:lang="pt">construções íntegras</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000004 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000004">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:12:44Z</terms:created>
+        <terms:title xml:lang="pt">construções pouco alteradas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000005 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000005">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:13:19Z</terms:created>
+        <terms:title xml:lang="pt">construções muito alteradas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000006 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000006">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocabulario.tradicional.arq.br/000000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:14:26Z</terms:created>
+        <terms:title xml:lang="pt">construções descaracterizadas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000007 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000007">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:31:53Z</terms:created>
+        <terms:title xml:lang="pt">construções em bom estado de conservação</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000008 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000008">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:33:40Z</terms:created>
+        <terms:title xml:lang="pt">construções em estado precário de conservação</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000009 -->
+
+    <owl:Class rdf:about="http://vocabulario.tradicional.arq.br/000000009">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:34:08Z</terms:created>
+        <terms:title xml:lang="pt">construções em processo de arruinamento</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300004789 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300004789">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264550"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T18:37:53Z</terms:created>
+        <terms:title xml:lang="pt">Construções individuais (nome da hierarquia)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300004790 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300004790">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004789"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004789"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T18:58:39Z</terms:created>
+        <terms:description xml:lang="pt">Construções individuais no ambiente construído.</terms:description>
+        <terms:title xml:lang="pt">construções individuais (ambiente construído)</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300004795 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300004795">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004790"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:26:21Z</terms:created>
+        <terms:title xml:lang="pt">&lt;construções individuais segundo seu tipo específico&gt;</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300008054 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300008054">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:28:48Z</terms:created>
+        <terms:description xml:lang="pt">Também usado para o Campo 9 da ficha SICG M301 (IPHAN) — Estado de conservação.</terms:description>
+        <terms:title xml:lang="pt">&lt;construções individuais segundo sua condição&gt;</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300008057 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300008057">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:34:49Z</terms:created>
+        <terms:title xml:lang="pt">ruínas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300264092 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300264092">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Facet"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T17:56:09Z</terms:created>
+        <terms:description xml:lang="pt">Compreende termos para coisas tangíveis ou visíveis, que sejam inanimadas e e produzidas pelo trabalho humano, inclusive elementos da paisagem que formam o entorno do ambiente construído.</terms:description>
+        <rdfs:label xml:lang="pt">Faceta: Objetos</rdfs:label>
+        <skos:scopeNote rdf:resource="http://vocabulario.tradicional.arq.br/2025/8/vocabulario/000000001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://vocab.getty.edu/aat/300264550 -->
+
+    <owl:Class rdf:about="https://vocab.getty.edu/aat/300264550">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Hierarchy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300264092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T18:20:47Z</terms:created>
+        <rdfs:label xml:lang="pt">Ambiente construído (nome da hierarquia)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.getty.edu/aat/300007999 -->
+
+    <owl:Class rdf:about="http://vocab.getty.edu/aat/300007999">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T23:59:15Z</terms:created>
+        <terms:title xml:lang="pt">&lt;construções individuais segundo sua localização ou contexto&gt;</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.getty.edu/aat/300008018 -->
+
+    <owl:Class rdf:about="http://vocab.getty.edu/aat/300008018">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="http://vocab.getty.edu/aat/300007999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="http://vocab.getty.edu/aat/300007999"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-04T00:00:55Z</terms:created>
+        <terms:title xml:lang="pt">&lt;construções individuais segundo sua localização: topográfica&gt;</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.getty.edu/aat/300386958 -->
+
+    <owl:Class rdf:about="http://vocab.getty.edu/aat/300386958">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:38:23Z</terms:created>
+        <terms:title xml:lang="pt">construções destruídas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.getty.edu/aat/300386961 -->
+
+    <owl:Class rdf:about="http://vocab.getty.edu/aat/300386961">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:41:41Z</terms:created>
+        <terms:title xml:lang="pt">construções abandonadas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.getty.edu/aat/300418052 -->
+
+    <owl:Class rdf:about="http://vocab.getty.edu/aat/300418052">
+        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#Concept"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderGeneric"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
+                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300008054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T20:42:52Z</terms:created>
+        <terms:title xml:lang="pt">construções reconstituídas</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vocabulario.tradicional.arq.br/000000001 -->
+
+    <owl:NamedIndividual rdf:about="http://vocabulario.tradicional.arq.br/000000001">
+        <rdf:type rdf:resource="http://vocab.getty.edu/ontology#ScopeNote"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T18:01:50Z</terms:created>
+        <rdfs:comment xml:lang="pt">Compreende termos para coisas tangíveis ou visíveis, que sejam inanimadas e e produzidas pelo trabalho humano, inclusive elementos da paisagem que formam o entorno do ambiente construído.</rdfs:comment>
+        <rdfs:label>ScopeNote: Faceta: Objetos</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
