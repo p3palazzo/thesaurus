@@ -13,6 +13,7 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:voaf="http://purl.org/vocommons/voaf#"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:schema="https://linked.art/ns/v1/linked-art.json"
      xmlns:ontology="http://vocab.getty.edu/ontology#"
      xmlns:protontop="http://www.ontotext.com/proton/protontop#">
     <owl:Ontology rdf:about="http://vocabulario.tradicional.arq.br">
@@ -373,6 +374,14 @@
         <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T18:37:53Z</terms:created>
         <terms:title xml:lang="pt">Construções individuais (nome da hierarquia)</terms:title>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="https://vocab.getty.edu/aat/300004789"/>
+        <owl:annotatedProperty rdf:resource="http://purl.org/dc/terms/title"/>
+        <owl:annotatedTarget xml:lang="pt">Construções individuais (nome da hierarquia)</owl:annotatedTarget>
+        <terms:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://orcid.org/0000-0002-0187-774X</terms:contributor>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T18:37:53Z</terms:created>
+        <rdfs:comment xml:lang="pt">Tradução contribuída.</rdfs:comment>
+    </owl:Axiom>
     
 
 
