@@ -54,8 +54,8 @@ record_rights:
   holder:
     type: "corporate"
     name:
-      refid: "https://vocab.getty.edu/aat/contrib/10000000"
-      display: "Getty Vocabulary Program"
+      refid: "https://isni.org/isni/0000000121076862"
+      display: "Getty Research Institute"
   concept:
     refid: "http://opendatacommons.org/licenses/by/1.0/"
     display: "Open Data Commons Attribution License (ODC-By) v1.0"
@@ -65,18 +65,20 @@ record_rights:
   holder:
     type: "corporate"
     name:
-      refid: "https://vocab.getty.edu/aat/contrib/10000316"
-      display: "Vocabulário Colaborativo em Artes e Arquitetura"
+      refid: "https://isni.org/isni/0000000419370722"
+      display: >
+        Vocabulário Colaborativo em Artes e Arquitetura,
+        Universidade de São Paulo
   concept:
     refid: "http://opendatacommons.org/licenses/by/1.0/"
-    display: "Open Data Commons Attribution License (ODC-By) v1.0"
+    display: "Open Data Commons Attribution License v1.0"
   temporal:
     earliest_date: 2020-09-21T11:20:51
 - type: "generic"
   holder:
     type: "corporate"
     name:
-      refid: "00.038.174/0013-87"
+      refid: "https://isni.org/isni/0000000122385157"
       display: "Fundação Universidade de Brasília"
   concept:
     refid: "https://creativecommons.org/licenses/by/4.0/"
