@@ -2057,52 +2057,6 @@
     
 
 
-    <!-- https://vocab.getty.edu/aat/300007999 -->
-
-    <owl:Class rdf:about="https://vocab.getty.edu/aat/300007999">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300004795"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-03T23:59:15Z</terms:created>
-        <terms:title xml:lang="pt">&lt;construções individuais segundo sua localização ou contexto&gt;</terms:title>
-    </owl:Class>
-    
-
-
-    <!-- https://vocab.getty.edu/aat/300008018 -->
-
-    <owl:Class rdf:about="https://vocab.getty.edu/aat/300008018">
-        <rdfs:subClassOf rdf:resource="http://vocab.getty.edu/ontology#GuideTerm"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/iso25964/skos-thes#broaderGeneric"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300007999"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://vocab.getty.edu/ontology#broaderPreferred"/>
-                <owl:someValuesFrom rdf:resource="https://vocab.getty.edu/aat/300007999"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <terms:contributor rdf:resource="https://orcid.org/0000-0002-0187-774X"/>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-09-04T00:00:55Z</terms:created>
-        <terms:title xml:lang="pt">&lt;construções individuais segundo sua localização: topográfica&gt;</terms:title>
-    </owl:Class>
-    
-
-
     <!-- http://vocabulario.tradicional.arq.br#000000014 -->
 
     <owl:NamedIndividual rdf:about="http://vocabulario.tradicional.arq.br#000000014"/>
